@@ -9,21 +9,21 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Hello!\n";
     double x = 0.0;
     double y = 0.0;
     double result = 0.0;
     char oper = '+';
 
-    cout << "Calculator Console Application" << endl << endl;
-    cout << "Please enter the operands to perform Calculation."
+    cout << "We are in Calculator Console Application" << endl << endl;
+    cout << "Please enter the operands to perform Addition."
         << endl;
 
     Calculator c;
     while (true)
     {
         cin >> x >> y;
-        result = c.Subtract(x, y);
+        result = c.Add(x, y);
         cout << "Result is: " << result << endl;
     }
 
