@@ -23,7 +23,7 @@ int main()
     while (true)
     {
         cin >> x >> y;
-        result = c.Add(x, y);
+        result = c.Multiply(x, y);
         cout << "Result is: " << result << endl;
     }
 
